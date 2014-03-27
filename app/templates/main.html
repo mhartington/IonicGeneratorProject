@@ -1,47 +1,47 @@
 <ion-view>
 
-	<ion-side-menus>
+  <ion-side-menus>
 
-		<fade-bar></fade-bar>
+    <fade-bar></fade-bar>
 
-		<ion-pane ion-side-menu-content id="nav-menu-pane" darken>
+    <ion-side-menu-content id="nav-menu-pane" darken>
 
-			<ion-nav-bar class="bar-positive" hide-back-button="true"></ion-nav-bar>
+      <ion-nav-bar class="bar-positive"></ion-nav-bar>
 
-			<ion-nav-view animation="none" name="content"></ion-nav-view>
+      <ion-nav-view name="content"></ion-nav-view>
 
-		</ion-pane>
+    </ion-side-menu-content>
 
-		<ion-side-menu side="left">
+    <ion-side-menu side="left">
 
-			<div class="bar bar-header bar-dark">
+      <div class="bar bar-header bar-dark">
 
-				<a class="button button-clear button-full title dark-head" ui-sref="home">
+        <a class="button button-clear button-full title dark-head" ui-sref="home">
 
-					Main Menu
+          Main Menu
 
-				</a>
+        </a>
 
-			</div>
+      </div>
 
-			<ion-content class="has-header dark" has-bouncing="true">
+      <ion-content class="has-header dark" has-bouncing="true">
 
-				<div class="list" ng-controller="IndexCtrl">
+        <div class="list">
 
-					<a ui-sref-active="active" ng-repeat="pet in pets | orderBy:'sku'" class="item" ui-sref="main.detail({petsId: pet.id })" ng-click="toggleMenu()">
+          <a ng-repeat="pet in pets | orderBy:'sku'" class="item" ui-sref="main.detail({petsId: pet.id })" ui-sref-active="active" menu-toggle="left" ng-click="setStuff();">
 
-						<h3>{{pet.sku}}</h3>
+            <h3>{{pet.sku}}</h3>
 
-						<p>{{pet.title}}</p>
+            <p>{{pet.title}}</p>
 
-					</a>
+          </a>
 
-				</div>
+        </div>
 
-			</ion-content>
+      </ion-content>
 
-		</ion-side-menu>
+    </ion-side-menu>
 
-	</ion-side-menus>
+  </ion-side-menus>
 
 </ion-view>

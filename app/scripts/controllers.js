@@ -1,6 +1,4 @@
-angular
-
-.module('starter.controllers', [])
+angular.module('starter.controllers', [])
 
 //Intro View Controller
 .controller('IntroCtrl', ['$scope', '$state', function ($scope, $state) {
@@ -38,7 +36,9 @@ angular
   }])
 
 //Main View Controller
-.controller('IndexCtrl', ['$scope', 'PetService', function ($scope, PetService) {
+.controller('IndexCtrl', ['$scope', 'PetService',function ($scope, PetService) {
+    
+  
     // 'Pets' is a service returning mock data (services.js)
     'use strict';
     $scope.pets = PetService.all();
@@ -51,13 +51,11 @@ angular
   }])
 
 //Menu Controller
-.controller('MenuCtrl', ['$scope', function ($scope) {
+.controller('MenuCtrl', ['$scope',function ($scope) {
     'use strict';
-    $scope.toggleMenu = function () {
-      $scope.$ionicSideMenusController.toggleLeft();
+    $scope.setStuff = function () {
+      console.log('should Set active');
     };
-
-    $scope.enableBackButton = false;
 
   }])
 

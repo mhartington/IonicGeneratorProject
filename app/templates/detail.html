@@ -1,15 +1,15 @@
-<ion-view title="{{pet.sku}}" left-buttons="leftButtons" right-buttons="rightButtons">
+<ion-view title="{{pet.sku}}">
 
      <ion-nav-buttons side="left">
-          <button class="button-clear button-icon icon ion-navicon white " ng-click="toggleMenu()"></button>
+          <button class="button button-clear button-icon icon ion-navicon" menu-toggle="left"></button>
      </ion-nav-buttons>
 
      <ion-nav-buttons side="right">
-          <button class="button-clear button-icon icon ion-ios7-information-outline white " ng-click="show()"></button>
+          <button class="button button-clear button-icon icon ion-ios7-information-outline" ng-click="show()"></button>
      </ion-nav-buttons>
      
      
-     <ion-tabs tabs-type="tabs-icon-top" class="tabs-light" animation="fade-in-out">
+     <ion-tabs class="tabs-light tabs-icon-top no-animation">
 
           <ion-tab title="{{page.id}}" icon-off="{{page.icon}}" icon-on="{{page.icon}}-active" ng-repeat="page in pet.pages | orderBy:orderProp">
 

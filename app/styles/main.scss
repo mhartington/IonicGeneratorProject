@@ -1,3 +1,4 @@
+/*Sexy animataions*/
 @-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -23,7 +24,10 @@
 	}
 }
 
+$dark: #3f4041;
 
+
+/*Type resets and changes*/
 h2,
 h3,
 h4,
@@ -41,6 +45,8 @@ a {
 }
 
 
+
+/*Damn android*/
 .view,
 .pane {
 	margin: 0px auto !important;
@@ -49,6 +55,9 @@ a {
 	bottom: 0;
 }
 
+
+
+/*Dark Side Menu*/
 .dark {
   background-color: #3f4041 !important;
   color: #ffffff;
@@ -56,7 +65,7 @@ a {
     background-color: #3f4041 !important;
   }
   .item {
-    background-color: #3f4041;
+    background-color: $dark;
     border: none;
     border-top: 1px solid #464646;
     border-bottom: 2px solid #333333;
@@ -68,6 +77,11 @@ a {
     &:last-child {
       border-bottom: 1px solid #333333;
     }
+    &.active{ background-color:darken( $dark, 10% )   !important;
+       border-top: 1px solid #464646 !important;
+    border-bottom: 2px solid #333333 !important;
+      p,h3{opacity: .7;}
+            }
   }
   h2,
   h3,
@@ -79,6 +93,10 @@ a {
   text-decoration: none;
 }
 
+
+
+
+/*Base Layout*/
 .product {
 	position: absolute;
 	top: 0;
@@ -93,7 +111,6 @@ a {
 	-webkit-animation-duration: 500ms;
 	-moz-animation-duration: 500ms;
 	animation-duration: 500ms;
-	
 	overflow: hidden;
 	text-align: center;
 	display: -webkit-box;
@@ -181,12 +198,9 @@ a {
 		height: 100%;
 	}
 }
-/*////////////////////*/
+
 
 /*Media Query Goodness*/
-
-/*////////////////////*/
-
 @media only screen and (orientation: landscape) {
 	/* Landscape styles */
 	.wrapper {
@@ -263,6 +277,10 @@ a {
 }
 
 
+
+
+
+
 .slider {
 	height: 100%;
 }
@@ -288,6 +306,7 @@ a {
 }
 
 
+/*IOS Specific */
 .platform-ios7 {
 	.slider-pager {
 		top: 65px;
@@ -311,12 +330,12 @@ a {
 		font-weight: 200 !important;
 	}
 }
-
-
 .tab-item-active{
 		color: #006db6 !important;
 		font-weight: bold;
 	}
+
+
 
 .logo {
 	width: 90%;
@@ -327,8 +346,6 @@ a {
 ::-webkit-scrollbar {
 	display: none;
 }
-
-
 .white{
 	color: #fff !important;
 }

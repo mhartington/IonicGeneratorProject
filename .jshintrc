@@ -1,14 +1,4 @@
 {
-"globals": {
-  "$":false,
-  "jquery":false,
-  "console":false,
-  "require":false,
-  "process":false,
-  "__dirname":false,
-  "exports":false,
-  "angular":false
-  },
   "node": true,
   "browser": true,
   "esnext": true,

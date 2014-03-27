@@ -1,7 +1,7 @@
 angular.module('starter.directives', ['ionic.service.gesture'])
 
 //Fadebar Directive
-.directive('fadeBar', function ($timeout) {
+.directive('fadeBar',['$scope', '$element','$timeout', function ($timeout) {
   'use strict';
   return {
     restrict: 'E',
@@ -22,29 +22,29 @@ angular.module('starter.directives', ['ionic.service.gesture'])
       });
     }
   };
-})
-
-.directive('darken', function ($timeout) {
-  'use strict';
-  return {
-    restrict: 'A',
-    link: function ($scope, $element) {
-
-      $timeout(function () {
-
-        $scope.$watch('$ionicSideMenusController.getOpenRatio()', function (ratio) {
-
-          $element[0].style.webkitFilter = 'brightness(100%)' - Math.abs(ratio);
-        });
-      });
-    }
-  };
-})
+}])
+//
+//.directive('darken', function ($timeout) {
+//  'use strict';
+//  return {
+//    restrict: 'A',
+//    link: function ($scope, $element) {
+//
+//      $timeout(function () {
+//
+//        $scope.$watch('$ionicSideMenusController.getOpenRatio()', function (ratio) {
+//
+//          $element[0].style.webkitFilter = 'brightness(100%)' - Math.abs(ratio);
+//        });
+//      });
+//    }
+//  };
+//})
 
 
 
 //360 Rotator Directive
-.directive('imageRotator', function ($timeout) {
+.directive('imageRotator',['$timeout', function ($timeout) {
   'use strict';
   return {
     restrict: 'A',
@@ -139,4 +139,4 @@ angular.module('starter.directives', ['ionic.service.gesture'])
 
     }
   };
-});
+}]);

@@ -28,7 +28,7 @@ angular.module('starter', ['ionic',
 		.state('main', {
 			abstract: 'true',
 			templateUrl: 'templates/main.html',
-			controller: 'MenuCtrl'
+			controller: 'IndexCtrl'
 		})
 
 
