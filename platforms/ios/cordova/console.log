@@ -67,3 +67,80 @@
 2014-03-26 17:09:09.530 ProductDemo[73892:70b] Unlimited access to network resources
 2014-03-26 17:09:09.688 ProductDemo[73892:70b] Resetting plugins due to page load.
 2014-03-26 17:09:10.042 ProductDemo[73892:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-27 15:16:17.802 ProductDemo[67570:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-27 15:16:17.857 ProductDemo[67570:70b] Unlimited access to network resources
+2014-03-27 15:16:20.088 ProductDemo[67570:70b] Resetting plugins due to page load.
+2014-03-27 15:16:20.899 ProductDemo[67570:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-27 15:18:00.559 ProductDemo[70586:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-27 15:18:00.566 ProductDemo[70586:70b] Unlimited access to network resources
+2014-03-27 15:18:00.864 ProductDemo[70586:70b] Resetting plugins due to page load.
+2014-03-27 15:18:01.826 ProductDemo[70586:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 14:47:05.307 ProductDemo[21625:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 14:47:05.441 ProductDemo[21625:70b] Unlimited access to network resources
+2014-03-28 14:47:06.729 ProductDemo[21625:70b] Resetting plugins due to page load.
+2014-03-28 14:47:07.478 ProductDemo[21625:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 14:48:20.831 ProductDemo[23760:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 14:48:20.838 ProductDemo[23760:70b] Unlimited access to network resources
+2014-03-28 14:48:20.969 ProductDemo[23760:70b] Resetting plugins due to page load.
+2014-03-28 14:48:21.251 ProductDemo[23760:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+Terminating in response to SpringBoard's termination.
+2014-03-28 14:56:32.975 ProductDemo[36610:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 14:56:33.013 ProductDemo[36610:70b] Unlimited access to network resources
+2014-03-28 14:56:33.336 ProductDemo[36610:70b] Resetting plugins due to page load.
+2014-03-28 14:56:33.837 ProductDemo[36610:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 15:21:54.664 ProductDemo[72586:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 15:21:54.672 ProductDemo[72586:70b] Unlimited access to network resources
+2014-03-28 15:21:55.178 ProductDemo[72586:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:21:55.179 ProductDemo[72586:70b] [CDVTimer][splashscreen] 413.933039ms
+2014-03-28 15:21:55.204 ProductDemo[72586:70b] [CDVTimer][statusbar] 24.940014ms
+2014-03-28 15:21:55.205 ProductDemo[72586:70b] [CDVTimer][TotalPluginStartup] 440.178037ms
+2014-03-28 15:21:55.206 ProductDemo[72586:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:21:55.211 ProductDemo[72586:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:21:55.212 ProductDemo[72586:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:21:55.373 ProductDemo[72586:70b] Resetting plugins due to page load.
+2014-03-28 15:21:55.802 ProductDemo[72586:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 15:41:15.505 ProductDemo[99202:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 15:41:15.513 ProductDemo[99202:70b] Unlimited access to network resources
+2014-03-28 15:41:15.546 ProductDemo[99202:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:41:15.546 ProductDemo[99202:70b] [CDVTimer][splashscreen] 12.396991ms
+2014-03-28 15:41:15.549 ProductDemo[99202:70b] [CDVTimer][statusbar] 1.816988ms
+2014-03-28 15:41:15.549 ProductDemo[99202:70b] [CDVTimer][TotalPluginStartup] 15.330017ms
+2014-03-28 15:41:15.551 ProductDemo[99202:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:41:15.553 ProductDemo[99202:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:41:15.555 ProductDemo[99202:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:41:15.774 ProductDemo[99202:70b] Resetting plugins due to page load.
+2014-03-28 15:41:16.078 ProductDemo[99202:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 15:50:06.041 ProductDemo[12584:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 15:50:06.049 ProductDemo[12584:70b] Unlimited access to network resources
+2014-03-28 15:50:06.078 ProductDemo[12584:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:50:06.078 ProductDemo[12584:70b] [CDVTimer][splashscreen] 9.741008ms
+2014-03-28 15:50:06.080 ProductDemo[12584:70b] [CDVTimer][statusbar] 1.722991ms
+2014-03-28 15:50:06.081 ProductDemo[12584:70b] [CDVTimer][TotalPluginStartup] 12.263000ms
+2014-03-28 15:50:06.082 ProductDemo[12584:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:50:06.085 ProductDemo[12584:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:50:06.086 ProductDemo[12584:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 15:50:06.309 ProductDemo[12584:70b] Resetting plugins due to page load.
+2014-03-28 15:50:06.690 ProductDemo[12584:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 16:17:06.554 ProductDemo[53424:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 16:17:06.563 ProductDemo[53424:70b] Unlimited access to network resources
+2014-03-28 16:17:06.687 ProductDemo[53424:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:17:06.687 ProductDemo[53424:70b] [CDVTimer][splashscreen] 22.368014ms
+2014-03-28 16:17:06.736 ProductDemo[53424:70b] [CDVTimer][statusbar] 48.714995ms
+2014-03-28 16:17:06.736 ProductDemo[53424:70b] [CDVTimer][TotalPluginStartup] 71.617007ms
+2014-03-28 16:17:06.737 ProductDemo[53424:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:17:06.753 ProductDemo[53424:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:17:06.754 ProductDemo[53424:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:17:07.134 ProductDemo[53424:70b] Resetting plugins due to page load.
+2014-03-28 16:17:07.622 ProductDemo[53424:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 16:26:32.714 ProductDemo[68207:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 16:26:32.721 ProductDemo[68207:70b] Unlimited access to network resources
+2014-03-28 16:26:32.749 ProductDemo[68207:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:26:32.749 ProductDemo[68207:70b] [CDVTimer][splashscreen] 9.571016ms
+2014-03-28 16:26:32.751 ProductDemo[68207:70b] [CDVTimer][statusbar] 1.697004ms
+2014-03-28 16:26:32.751 ProductDemo[68207:70b] [CDVTimer][TotalPluginStartup] 11.745989ms
+2014-03-28 16:26:32.752 ProductDemo[68207:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:26:32.755 ProductDemo[68207:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:26:32.756 ProductDemo[68207:70b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-03-28 16:26:32.811 ProductDemo[68207:70b] Resetting plugins due to page load.
+2014-03-28 16:26:33.115 ProductDemo[68207:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-03-28 16:27:10.175 ProductDemo[68207:70b] THREAD WARNING: ['InAppBrowser'] took '104.941162' ms. Plugin should use a background thread.

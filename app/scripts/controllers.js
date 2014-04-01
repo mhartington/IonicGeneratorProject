@@ -1,21 +1,24 @@
 angular.module('starter.controllers', [])
 
 //Intro View Controller
-.controller('IntroCtrl', ['$scope', '$state', function ($scope, $state) {
+.controller('IntroCtrl', ['$scope', '$state',
+  function ($scope, $state) {
     'use strict';
     $scope.startApp = function () {
       $state.go('home');
-      window.localStorage.didTutorial = true;
+      //      window.localStorage.didTutorial = true;
     };
 
-    //    if (window.localStorage.didTutorial === 'true') {
-    //      $scope.startApp(function () {});
-    //
-    //    } else {
-    //      console.log('Need to do into');
-    //      //		navigator.splashscreen.hide();
-    //
-    //    }
+
+
+    if (window.localStorage.didTutorial === 'true') {
+      $scope.startApp(function () {});
+
+    } else {
+      console.log('Need to do into');
+      //		navigator.splashscreen.hide();
+
+    }
 
 
 
@@ -36,22 +39,25 @@ angular.module('starter.controllers', [])
   }])
 
 //Main View Controller
-.controller('IndexCtrl', ['$scope', 'PetService',function ($scope, PetService) {
-    
-  
+.controller('IndexCtrl', ['PetService', '$scope',
+  function (PetService, $scope) {
+
+
     // 'Pets' is a service returning mock data (services.js)
     'use strict';
     $scope.pets = PetService.all();
 
     $scope.enableBackButton = false;
 
-    //    setTimeout(function () {
-    //        navigator.splashscreen.hide();
-    //    }, 750);
+    setTimeout(function () {
+      navigator.splashscreen.hide();
+    }, 750);
   }])
 
+
 //Menu Controller
-.controller('MenuCtrl', ['$scope',function ($scope) {
+.controller('MenuCtrl', ['$scope',
+  function ($scope) {
     'use strict';
     $scope.setStuff = function () {
       console.log('should Set active');
@@ -60,7 +66,8 @@ angular.module('starter.controllers', [])
   }])
 
 //Menu Detail Controller
-.controller('DetailCtrl', ['$scope', '$stateParams', 'PetService', '$ionicActionSheet', function ($scope, $stateParams, PetService, $ionicActionSheet) {
+.controller('DetailCtrl', ['$scope', '$stateParams', 'PetService', '$ionicActionSheet',
+  function ($scope, $stateParams, PetService, $ionicActionSheet) {
     'use strict';
     $scope.pet = PetService.get($stateParams.petsId);
 
@@ -74,9 +81,9 @@ angular.module('starter.controllers', [])
           {
             text: 'Manual',
           },
-          //                {
-          //                    text: 'See on Site'
-          //                },
+          //{
+          //text: 'See on Site'
+          //},
         ],
         cancelText: 'Close',
         cancel: function () {},

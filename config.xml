@@ -12,5 +12,4 @@
 	<preference name="SplashScreenDelay" value="1000" />
 	<content src="index.html" />
 	<access origin="*" />
-	<preference name="AutoHideSplashScreen" value="false" />
 </widget>

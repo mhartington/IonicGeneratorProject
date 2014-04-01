@@ -28,7 +28,7 @@
 
         <div class="list">
 
-          <a ng-repeat="pet in pets | orderBy:'sku'" class="item" ui-sref="main.detail({petsId: pet.id })" ui-sref-active="active" menu-toggle="left" ng-click="setStuff();">
+          <a ng-repeat="pet in pets | orderBy:'sku'" class="item" ui-sref="main.detail({petsId: pet.id })" ui-sref-active="current" menu-toggle="left" ng-click="setStuff();">
 
             <h3>{{pet.sku}}</h3>
 

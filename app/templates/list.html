@@ -1,25 +1,25 @@
 <ion-view title="Hanna Instruments">
 
-     <ion-nav-bar class="bar-positive" hide-back-button="true" animation="nav-title-slide-ios7"></ion-nav-bar>
+  <ion-nav-bar class="bar-positive" hide-back-button="true" animation="nav-title-slide-ios7"></ion-nav-bar>
 
-     <ion-content class="has-header" has-bouncing="true">
+  <ion-content class="has-header" has-bouncing="true">
 
-          <img src="img/logo.svg" class="logo">
+    <img src="images/logo.svg" class="logo">
 
-          <ion-list>
+    <ion-list>
 
-               <ion-item ng-repeat="pet in pets | orderBy:'sku'" ui-sref="main.detail({petsId: pet.id })" class="item-thumbnail-left">
+      <ion-item ng-repeat="pet in pets | orderBy:'sku'" ui-sref="main.detail({petsId: pet.id })" class="item-thumbnail-left">
 
-                    <img src="img/{{pet.sku}}/thumb.png">
+        <img src="images/{{pet.sku}}/thumb.png">
 
-                    <h3>{{pet.sku}}</h3>
+        <h3>{{pet.sku}}</h3>
 
-                    <p>{{pet.title}}</p>
+        <p>{{pet.title}}</p>
 
-               </ion-item>
+      </ion-item>
 
-          </ion-list>
+    </ion-list>
 
-     </ion-content>
+  </ion-content>
 
 </ion-view>

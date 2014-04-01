@@ -1,11 +1,11 @@
 'use strict';
 
-describe('Controller: IndexCtrl', function () {
+describe('Controller: PetIndexCtrl', function () {
 
   var should = chai.should();
 
   // load the controller's module
-  beforeEach(module('starter'));
+  beforeEach(module('IonicGeneratorProject'));
 
   var PetIndexCtrl,
     scope;
@@ -13,7 +13,7 @@ describe('Controller: IndexCtrl', function () {
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    IndexCtrl = $controller('IndexCtrl', {
+    PetIndexCtrl = $controller('PetIndexCtrl', {
       $scope: scope
     });
   }));
