@@ -1,84 +1,102 @@
 <ion-view title="{{pet.sku}}">
 
-     <ion-nav-buttons side="left">
-          <button class="button button-clear button-icon icon ion-navicon" menu-toggle="left"></button>
-     </ion-nav-buttons>
+  <ion-nav-buttons side="left">
+    <button class="button button-clear button-icon icon ion-navicon" menu-toggle="left"></button>
+  </ion-nav-buttons>
 
-     <ion-nav-buttons side="right">
-          <button class="button button-clear button-icon icon ion-ios7-information-outline" ng-click="show()"></button>
-     </ion-nav-buttons>
-     
-     
-     <ion-tabs class="tabs-light tabs-icon-top no-animation">
-
-          <ion-tab title="{{page.id}}" icon-off="{{page.icon}}" icon-on="{{page.icon}}-active" ng-repeat="page in pet.pages | orderBy:orderProp">
-
-               <ion-slide-box ng-if="page.type === 'slide'">
-
-                    <ion-slide ng-repeat="slide in page.slides">
-
-                         <div class="wrapper has-tabs has-header">
-
-                              <div class="product">
-
-                                   <img class="child" ng-src="images/{{pet.sku}}/{{slide.img}}.png">
-
-                              </div>
-
-                              <ion-content class="info padding" has-bouncing="true">
-
-                                   <p>{{slide.content}}</p>
-
-                              </ion-content>
-
-                         </div>
-
-                    </ion-slide>
-
-               </ion-slide-box>
-
-               <div ng-if="page.type === 'normal'" class="wrapper has-tabs has-header">
-
-                    <div class="product" image-rotator>
-
-                         <img ng-repeat="img in page.imgs" class="child" ng-src="images/{{pet.sku}}/{{img}}.png">
-
-                    </div>
-
-                    <ion-content has-bouncing="true" class="info padding">
-
-                         <p>{{page.content}}</p>
-
-                    </ion-content>
+  <ion-nav-buttons side="right">
+    <button class="button button-clear button-icon icon ion-ios7-information-outline" ng-click="show()"></button>
+  </ion-nav-buttons>
 
 
+  <ion-tabs class="tabs-light tabs-icon-top no-animation">
 
-               </div>
+    <ion-tab title="{{page.id}}" icon-off="{{page.icon}}" icon-on="{{page.icon}}-active" ng-repeat="page in pet.pages | orderBy:orderProp">
+    
+    
+    
 
-               <div ng-if="page.type === 'video'">
+      <!--Slide Page -->
 
-                    <ion-content has-header="true" has-tabs="true" has-bouncing="true" padding="true">
+      <ion-slide-box ng-if="page.type === 'slide'">
 
-                         <div class="row">
+        <ion-slide ng-repeat="slide in page.slides">
 
-                              <div class="col" style="max-width: 1200px;margin: auto;">
+          <div class="wrapper has-tabs has-header">
 
-                                   <div class='embed-container'>
+            <div class="product">
 
-                                        <iframe type="text/html" src="{{page.src}}" frameborder="0" allowfullscreen></iframe>
+              <img class="child" ng-src="images/{{pet.sku}}/{{slide.img}}.png">
 
-                                   </div>
+            </div>
 
-                              </div>
+            <ion-content class="info padding" has-bouncing="true">
 
-                         </div>
+              <p>{{slide.content}}</p>
 
-                    </ion-content>
+            </ion-content>
 
-               </div>
+          </div>
 
-          </ion-tab>
+        </ion-slide>
 
-     </ion-tabs>
+      </ion-slide-box>
+      
+      
+      
+      
+
+      <!--Normal Page-->
+
+      <ion-content ng-if="page.type === 'normal'" scroll="false">
+
+        <div class="product" image-rotator>
+
+          <img ng-repeat="img in page.imgs" class="child" ng-src="images/{{pet.sku}}/{{img}}.png">
+
+        </div>
+
+        <ion-scroll has-bouncing="true" class="info padding">
+
+          <p>{{page.content}}</p>
+
+        </ion-scroll>
+
+
+
+      </ion-content>
+      
+      
+      
+      
+      
+
+      <!--Video Page-->
+
+      <div ng-if="page.type === 'video'">
+
+        <ion-content has-header="true" has-tabs="true" has-bouncing="true" padding="true">
+
+          <div class="row">
+
+            <div class="col" style="max-width: 1200px;margin: auto;">
+
+              <div class='embed-container'>
+
+                <iframe type="text/html" src="{{page.src}}" frameborder="0" allowfullscreen></iframe>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </ion-content>
+
+      </div>
+
+    </ion-tab>
+
+  </ion-tabs>
 
 </ion-view>

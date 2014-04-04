@@ -56,14 +56,9 @@ angular.module('starter.controllers', [])
 
 
 //Menu Controller
-.controller('MenuCtrl', ['$scope',
-  function ($scope) {
-    'use strict';
-    $scope.setStuff = function () {
-      console.log('should Set active');
-    };
-
-  }])
+.controller('MenuCtrl', function ($scope, $ionicSideMenuDelegate) {
+  $ionicSideMenuDelegate.canDragContent(false);
+})
 
 //Menu Detail Controller
 .controller('DetailCtrl', ['$scope', '$stateParams', 'PetService', '$ionicActionSheet',

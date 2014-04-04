@@ -144,3 +144,17 @@ Terminating in response to SpringBoard's termination.
 2014-03-28 16:26:32.811 ProductDemo[68207:70b] Resetting plugins due to page load.
 2014-03-28 16:26:33.115 ProductDemo[68207:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
 2014-03-28 16:27:10.175 ProductDemo[68207:70b] THREAD WARNING: ['InAppBrowser'] took '104.941162' ms. Plugin should use a background thread.
+2014-04-03 17:01:15.875 ProductDemo[23111:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-03 17:01:15.899 ProductDemo[23111:70b] Unlimited access to network resources
+2014-04-03 17:01:16.957 ProductDemo[23111:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-03 17:01:16.959 ProductDemo[23111:70b] [CDVTimer][splashscreen] 309.116006ms
+2014-04-03 17:01:16.966 ProductDemo[23111:70b] [CDVTimer][statusbar] 3.007948ms
+2014-04-03 17:01:16.967 ProductDemo[23111:70b] [CDVTimer][TotalPluginStartup] 317.152023ms
+2014-04-03 17:01:16.969 ProductDemo[23111:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-03 17:01:16.974 ProductDemo[23111:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-03 17:01:16.976 ProductDemo[23111:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-03 17:01:17.133 ProductDemo[23111:70b] Resetting plugins due to page load.
+2014-04-03 17:01:18.610 ProductDemo[23111:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/products
+2014-04-03 17:02:08.133 ProductDemo[23111:70b] THREAD WARNING: ['InAppBrowser'] took '330.033203' ms. Plugin should use a background thread.
+2014-04-03 17:02:08.279 ProductDemo[23111:70b] webView:didFailLoadWithError - -1100: The requested URL was not found on this server.
+Terminating in response to SpringBoard's termination.
