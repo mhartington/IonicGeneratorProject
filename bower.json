@@ -10,6 +10,8 @@
     "angular-scenario": "1.2.12"
   },
   "resolutions": {
+    "angular": "1.2.16",
+    "ionic": "master",
     "angular-ui-router": "~0.2.10"
   }
 }

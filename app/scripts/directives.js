@@ -11,8 +11,7 @@ angular.module('starter.directives', [])
 
       replace: true,
 
-      link: ['$scope', '$element',
-        function ($scope, $element) {
+      link: function ($scope, $element) {
 
           $timeout(function () {
 
@@ -22,7 +21,7 @@ angular.module('starter.directives', [])
 
             });
           });
-    }]
+    }
     };
 }])
 

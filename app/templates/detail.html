@@ -12,9 +12,9 @@
   <ion-tabs class="tabs-light tabs-icon-top no-animation">
 
     <ion-tab title="{{page.id}}" icon-off="{{page.icon}}" icon-on="{{page.icon}}-active" ng-repeat="page in pet.pages | orderBy:orderProp">
-    
-    
-    
+
+
+
 
       <!--Slide Page -->
 
@@ -41,14 +41,14 @@
         </ion-slide>
 
       </ion-slide-box>
-      
-      
-      
-      
+
+
+
+
 
       <!--Normal Page-->
 
-      <ion-content ng-if="page.type === 'normal'" scroll="false">
+      <div class="wrapper has-header" ng-if="page.type === 'normal'">
 
         <div class="product" image-rotator>
 
@@ -56,20 +56,20 @@
 
         </div>
 
-        <ion-scroll has-bouncing="true" class="info padding">
+        <ion-content has-bouncing="true" class="info padding">
 
           <p>{{page.content}}</p>
 
-        </ion-scroll>
+        </ion-content>
 
 
 
-      </ion-content>
-      
-      
-      
-      
-      
+      </div>
+
+
+
+
+
 
       <!--Video Page-->
 

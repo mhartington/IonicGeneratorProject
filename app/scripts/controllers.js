@@ -11,14 +11,14 @@ angular.module('starter.controllers', [])
 
 
 
-    if (window.localStorage.didTutorial === 'true') {
-      $scope.startApp(function () {});
-
-    } else {
-      console.log('Need to do into');
-      //		navigator.splashscreen.hide();
-
-    }
+//    if (window.localStorage.didTutorial === 'true') {
+//      $scope.startApp(function () {});
+//
+//    } else {
+//      console.log('Need to do into');
+//      //    navigator.splashscreen.hide();
+//
+//    }
 
 
 

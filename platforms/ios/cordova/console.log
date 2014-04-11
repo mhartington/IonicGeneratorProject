@@ -158,3 +158,48 @@ Terminating in response to SpringBoard's termination.
 2014-04-03 17:02:08.133 ProductDemo[23111:70b] THREAD WARNING: ['InAppBrowser'] took '330.033203' ms. Plugin should use a background thread.
 2014-04-03 17:02:08.279 ProductDemo[23111:70b] webView:didFailLoadWithError - -1100: The requested URL was not found on this server.
 Terminating in response to SpringBoard's termination.
+2014-04-09 11:16:42.328 ProductDemo[94267:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-09 11:16:42.397 ProductDemo[94267:70b] Unlimited access to network resources
+2014-04-09 11:16:45.025 ProductDemo[94267:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:16:45.026 ProductDemo[94267:70b] [CDVTimer][splashscreen] 247.532010ms
+2014-04-09 11:16:45.028 ProductDemo[94267:70b] [CDVTimer][statusbar] 1.865029ms
+2014-04-09 11:16:45.028 ProductDemo[94267:70b] [CDVTimer][TotalPluginStartup] 250.276029ms
+2014-04-09 11:16:45.029 ProductDemo[94267:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:16:45.034 ProductDemo[94267:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:16:45.042 ProductDemo[94267:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:16:45.192 ProductDemo[94267:70b] Resetting plugins due to page load.
+2014-04-09 11:16:46.027 ProductDemo[94267:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-04-09 11:22:41.733 ProductDemo[3878:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-09 11:22:41.741 ProductDemo[3878:70b] Unlimited access to network resources
+2014-04-09 11:22:41.780 ProductDemo[3878:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:22:41.780 ProductDemo[3878:70b] [CDVTimer][splashscreen] 10.701001ms
+2014-04-09 11:22:41.782 ProductDemo[3878:70b] [CDVTimer][statusbar] 1.762986ms
+2014-04-09 11:22:41.783 ProductDemo[3878:70b] [CDVTimer][TotalPluginStartup] 13.234019ms
+2014-04-09 11:22:41.785 ProductDemo[3878:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:22:41.788 ProductDemo[3878:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:22:41.789 ProductDemo[3878:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:22:42.000 ProductDemo[3878:70b] Resetting plugins due to page load.
+2014-04-09 11:22:42.647 ProductDemo[3878:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-04-09 11:26:57.962 ProductDemo[10694:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-09 11:26:57.970 ProductDemo[10694:70b] Unlimited access to network resources
+2014-04-09 11:26:57.999 ProductDemo[10694:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:26:57.999 ProductDemo[10694:70b] [CDVTimer][splashscreen] 10.035992ms
+2014-04-09 11:26:58.001 ProductDemo[10694:70b] [CDVTimer][statusbar] 1.704991ms
+2014-04-09 11:26:58.002 ProductDemo[10694:70b] [CDVTimer][TotalPluginStartup] 12.481987ms
+2014-04-09 11:26:58.003 ProductDemo[10694:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:26:58.006 ProductDemo[10694:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:26:58.007 ProductDemo[10694:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:26:58.191 ProductDemo[10694:70b] Resetting plugins due to page load.
+2014-04-09 11:26:58.500 ProductDemo[10694:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+2014-04-09 11:30:39.948 ProductDemo[16671:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-09 11:30:39.956 ProductDemo[16671:70b] Unlimited access to network resources
+2014-04-09 11:30:39.985 ProductDemo[16671:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:30:39.985 ProductDemo[16671:70b] [CDVTimer][splashscreen] 10.379016ms
+2014-04-09 11:30:39.987 ProductDemo[16671:70b] [CDVTimer][statusbar] 1.743019ms
+2014-04-09 11:30:39.988 ProductDemo[16671:70b] [CDVTimer][TotalPluginStartup] 12.880027ms
+2014-04-09 11:30:39.989 ProductDemo[16671:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:30:39.992 ProductDemo[16671:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:30:39.993 ProductDemo[16671:70b] WARNING: The splashscreen image named LaunchImage-Portrait was not found
+2014-04-09 11:30:40.157 ProductDemo[16671:70b] Resetting plugins due to page load.
+2014-04-09 11:30:40.550 ProductDemo[16671:70b] Finished load of: file:///Users/gcollins/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8E12352D-DA2D-4D90-835D-9A490F50E1ED/ProductDemo.app/www/index.html#/
+Terminating in response to SpringBoard's termination.
