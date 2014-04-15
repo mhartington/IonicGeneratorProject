@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
     'use strict';
     $scope.startApp = function () {
       $state.go('home');
-      //      window.localStorage.didTutorial = true;
+          window.localStorage.didTutorial = true;
     };
 
 
@@ -49,9 +49,9 @@ angular.module('starter.controllers', [])
 
     $scope.enableBackButton = false;
 
-    setTimeout(function () {
-      navigator.splashscreen.hide();
-    }, 750);
+//    setTimeout(function () {
+//      navigator.splashscreen.hide();
+//    }, 750);
   }])
 
 
@@ -97,7 +97,7 @@ angular.module('starter.controllers', [])
               location = '_blank';
             }
 
-            window.open($scope.pet.manual, location, 'transitionstyle=fliphorizontal', 'toolbarposition=top');
+            window.open($scope.pet.manual, location);
           } else if (index === 1) {
 
           }
