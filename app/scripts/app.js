@@ -18,20 +18,8 @@ angular.module('starter', ['ionic',
   .state('intro', {
     url: '/',
     templateUrl: 'templates/intro.html',
-    controller: 'IntroCtrl',
-//    resolve: {
-//      intro: function ($state) {
-//        if (window.localStorage.didTutorial === 'true') {
-//          console.log('intro done');
-//          $state.go('home');
-//        }
-//        else {
-//          console.log('Need to do into');
-//          //navigator.splashscreen.hide();
-//
-//        }
-//      }
-//    }
+    controller: 'IntroCtrl'
+
   })
 
   //Nested State
